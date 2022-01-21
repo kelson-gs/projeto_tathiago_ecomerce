@@ -1,0 +1,205 @@
+
+#title_h1_novidade{
+    width: 950px;
+    height: 37px;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582);
+    margin-left: 360px;
+    margin-top: 130px;
+    color: #fff;
+    background: #CC511D;
+}
+#section_container_novidade{
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    max-width: 900px;
+    height: auto;
+    margin: auto;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#container_product_home{
+    width: 350px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.465);
+    margin-top: 30px;
+    margin-right: 85px;
+    margin-left: 5px;
+}
+
+#container_precos_home{
+    position: relative;
+    width: 80px;
+    height: 30px;
+    background: #CC511D;
+    border-top-left-radius: 8px;
+    color: #fff;
+    font-size: 14pt;
+    bottom: 360px;
+    padding-left: 5px;
+    left: 265px;
+}
+
+#img_novidade_home{
+    width: 350px;
+    height: 300px;
+}
+
+#btn_delete_novidade_home{
+    position: absolute;
+    font-size: 13pt;
+    text-align: center;
+    width: 23px;
+    height: 23px;
+    background: #CC511D;
+    border: none;
+    color: #FFF;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#name_product_home{
+    text-align: center;
+}
+
+#btn_acessar{
+    width: 150px;
+    height: 25px;
+    border: 1px solid #CC511D;
+    text-decoration: none;
+    color: #CC511D;
+    background: #FFF;
+    margin-top: 25px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn_acessar:hover{
+    transition: 0.3s;
+    background: rgba(250, 127, 74, 0.678);
+    border: 1px solid rgba(250, 127, 74, 0.678);
+}
+
+#link_btn{
+    transition: 0.3s;
+    text-decoration: none;
+    color: #CC511D;
+}
+
+#link_btn:hover{
+    transition: 0.3s;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+/* promocao style */
+#title_h1_promocao{
+    width: 950px;
+    height: 37px;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582);
+    margin-left: 360px;
+    margin-top: 200px;
+    color: #fff;
+    background: #CC511D;
+    
+}
+#section_container_promocao{
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    max-width: 900px;
+    height: auto;
+    margin: auto;
+    margin-left: 400px;
+    margin-top: 10px;
+    
+}
+
+#container_product{
+    width: 350px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.465);
+    margin-top: 30px;
+    margin-right: 85px;
+    margin-left: 5px;
+}
+
+#container_precos{
+    position: relative;
+    width: 80px;
+    height: 30px;
+    background: #CC511D;
+    border-top-left-radius: 8px;
+    color: #fff;
+    font-size: 14pt;
+    bottom: 360px;
+    padding-left: 5px;
+    left: 265px;
+}
+
+#img_promocao{
+    width: 350px;
+    height: 300px;
+}
+
+#btn_delete_promocao{
+    position: absolute;
+    font-size: 13pt;
+    text-align: center;
+    width: 23px;
+    height: 23px;
+    background: #CC511D;
+    border: none;
+    color: #FFF;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#name_product{
+    text-align: center;
+}
+
+#btn_acessar{
+    width: 150px;
+    height: 25px;
+    border: 1px solid #CC511D;
+    text-decoration: none;
+    color: #CC511D;
+    background: #FFF;
+    margin-top: 25px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn_acessar:hover{
+    transition: 0.3s;
+    background: rgba(250, 127, 74, 0.678);
+    border: 1px solid rgba(250, 127, 74, 0.678);
+}
+
+#link_btn{
+    transition: 0.3s;
+    text-decoration: none;
+    color: #CC511D;
+}
+
+#link_btn:hover{
+    transition: 0.3s;
+    color: #FFF;
+}

@@ -1,0 +1,48 @@
+#container-unitransacao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 400px;
+    border: 1px solid rgba(31, 70, 155, 0.829);
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-label-unitran{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+}
+
+.label-unitransacao{
+    color: rgb(11, 89, 134);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+}
+
+.label-result-unitransacao{
+    color: rgb(7, 62, 66);
+    margin-bottom: 15px;
+}
+
+#input-name-banco{
+    margin-left: 10px;
+    border: 1px solid rgba(31, 70, 155, 0.829);
+    outline: none;
+}
+
+#btn-banco-buscar{
+    background: #ffffff;
+    color: rgb(31, 70, 155);
+    border: 1px solid rgb(31, 70, 155);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#btn-banco-buscar:hover{
+    transition: 0.5s;
+    color: white;
+    background:  rgb(31, 70, 155);
+}

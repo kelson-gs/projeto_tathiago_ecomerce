@@ -1,0 +1,45 @@
+#nav_box{
+    position: absolute;
+    top: 140px;
+    left: 5px;
+    padding-top: 10px;
+    background: #FFFFFF;
+    border: 2px solid #CC511D;
+    border-radius: 3px;
+    width: 280px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.list {
+    border: 1px solid#CC511D;
+    border-radius: 3px;
+    margin-left: -15px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 25px;
+    padding: 3px;
+    text-align: center;
+    transition: 0.8s;
+}
+
+
+.link_list{
+    width: 100px;
+    color: #CC511D;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.list:hover{
+    transition: 0.8s;
+    background:#CC511D;
+}
+
+.link_list:hover {
+    transition: 0.8s;
+    color: #fff;
+}

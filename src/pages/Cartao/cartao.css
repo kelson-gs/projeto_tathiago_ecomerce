@@ -1,0 +1,410 @@
+/* caixa de demostração do produto */
+#container_reprise_produto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 990px;
+    height: 100px;
+    border: 1px solid #cc511da6;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px #cc511d70;
+    margin-top: 35px;
+    margin-left: 270px;
+}
+
+#img_reprise{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#name_reprise{
+    font-size: 16pt;
+    color: #CC511D;
+    margin-left: 205px; 
+}
+
+#preco_reprise{
+    font-size: 16pt;
+    color: #CC511D;
+    margin-left: 205px;
+}
+
+#quant_reprise{
+    font-size: 16pt;
+    color: #CC511D;
+    margin-left: 205px;
+}
+
+
+/* texto informativo */
+#title_explicated{
+    color: #CC511D;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+/* caixa de frete  */
+#container_frete_or_get{
+    display: flex;
+    margin: 30px auto;
+    padding: 10px;
+    border: 1px solid #CC511D;
+    width: 290px;
+}
+
+.label_frete_checkbox{
+    text-align: center;
+    font-size: 14pt;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#label_pegar_na_loja{
+    margin-left: 35px;
+}
+
+.input_frete_checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+
+/* caixa de erro do frete */
+#errors_frete_show{
+   margin-left: 500px;
+   
+}
+
+
+/* msg frete */
+#title_msg_frete{
+    text-align: center;
+    margin-left: 685px;
+    font-size: 17pt;
+    color: #CC511D;
+}
+
+
+#container_correios_card{
+    border: 1px solid #CC511D;
+    padding: 10px;
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+/* formularo cartão */
+#form_card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+#text_form_card{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 790px;
+    padding-left: 10px;
+}
+
+#text_quant_card{
+    color: #CC511D;
+    font-size: 14pt;
+    margin-top: 14px;
+    margin-left: 50px;
+}
+
+#input_quant{
+    width: 300px;
+    text-align: center;
+}
+
+.input_card_form{
+    width: 500px;
+    height: 30px;
+    font-size: 15pt;
+    padding: 5px;
+    border: 1px solid #CC511D;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+    margin-left: 25px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+
+/* formularo customer */
+#form_customer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.input_customer{
+    width: 500px;
+    height: 30px;
+    font-size: 15pt;
+    padding: 5px;
+    border: 1px solid #CC511D;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+    margin-left: 25px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#text_form_customer{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 790px;
+    padding-left: 10px;
+}
+
+#text_type_person{
+    color: #CC511D;
+    font-size: 14pt;
+    margin-top: 14px;
+    margin-left: 50px;
+}
+
+#container_type_person{
+    width: 500px;
+    height: auto;
+    font-size: 15pt;
+    border: 1px solid #CC511D;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+    margin-left: 25px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#container-person{
+    border-top: 1px solid #CC511D;
+    text-align: center;
+    color: #CC511D;
+    
+}
+
+#text_h3_person{
+    color: #CC511D;
+    font-size: 14pt;
+    text-align: center;
+    cursor: pointer
+}
+
+.person_p{
+    transition: 0.5s;
+}
+
+.person_p:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 18pt;
+    color: #993f18;
+}
+
+
+
+#text_type_doc{
+    color: #CC511D;
+    font-size: 14pt;
+    margin-top: 14px;
+    margin-left: 50px;
+}
+
+#container_type_doc{
+    width: 500px;
+    height: auto;
+    font-size: 15pt;
+    border: 1px solid #CC511D;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+    margin-left: 25px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#container-doc{
+    border-top: 1px solid #CC511D;
+    text-align: center;
+    color: #CC511D;
+    
+}
+
+#text_h3_doc{
+    color: #CC511D;
+    font-size: 14pt;
+    text-align: center;
+    cursor: pointer
+}
+
+.doc_p{
+    transition: 0.5s;
+}
+
+.doc_p:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 18pt;
+    color: #993f18;
+}
+
+#text_doc_label{
+    color: #CC511D;
+    font-size: 14pt;
+    margin-top: 14px;
+    margin-left: 50px;
+}
+
+#text_birthday{
+    color: #CC511D;
+    font-size: 14pt;
+    margin-top: 14px;
+    margin-left: 50px;
+}
+
+#input_dia{
+    width: 55px;
+    height: 45px;
+    padding: 0px;
+}
+
+#input_mes{
+    width: 55px;
+    height: 45px;
+    padding: 0px;
+}
+
+#input_ano{
+    width: 55px;
+    height: 45px;
+    padding: 0px;
+}
+
+.barra{
+    color: #CC511D;
+    font-size: 35pt;
+    margin-left: 18px;
+    margin-top: -10px
+}
+
+#container_birthday{
+    display: flex;
+    flex-direction: row;
+}
+
+#container_erros_boleto{
+    background: #FF5151;
+    width: 300px;
+    height: 40px;
+    margin-left: 100px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 11pt;
+}
+
+
+
+/* formulario billing */
+#form_billing{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.input_billing{
+    width: 500px;
+    height: 30px;
+    font-size: 15pt;
+    padding: 5px;
+    border: 1px solid #CC511D;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+    margin-left: 25px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#text_form_billing{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 790px;
+    padding-left: 10px;
+}
+
+#text_type_address{
+    color: #CC511D;
+    font-size: 14pt;
+    margin-top: 14px;
+    margin-left: 50px;
+}
+
+
+/* formulario shipping */
+#form_shipping{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.input_shipping{
+    width: 500px;
+    height: 30px;
+    font-size: 15pt;
+    padding: 5px;
+    border: 1px solid #CC511D;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+    margin-left: 25px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#text_form_shipping{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 790px;
+    padding-left: 10px;
+}
+
+
+/* botão */
+#verificade_btn{
+    background: #57c4E5;
+    width: 200px;
+    height: 55px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px #0204057c;
+    font-size: 15pt;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#buy_btn{
+    background: #D1D646;
+    width: 200px;
+    height: 55px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px #0204057c;
+    font-size: 15pt;
+    font-weight: bolder;
+    cursor: pointer;
+}

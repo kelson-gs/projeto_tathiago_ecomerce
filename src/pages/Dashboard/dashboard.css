@@ -1,0 +1,56 @@
+#container_dashboard_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.dashboard_menu{
+    display: flex;
+    border: 1px solid #CC511D;
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.dashboard_menu:hover{
+    background: #CC511D;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.53);
+    width: 410px;
+    height: 410px;
+    transition: 0.6s;
+
+}
+
+.lnk-menu{
+    display: flex;
+    text-decoration: none;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    color: #CC511D;
+    font-size: 20pt;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.lnk-menu:hover{
+    background: #CC511D;
+    color: white;
+    width: 410px;
+    font-size: 30pt;
+    height: 410px;
+    transition: 0.6s;
+}
+
+#menu_banco_de_dados{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

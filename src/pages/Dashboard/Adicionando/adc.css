@@ -1,0 +1,219 @@
+#ul_nav_dashboard{
+    margin-top: 100px;
+}
+
+#ul_lav_directory_top{
+    display: flex;
+}
+
+#directory_top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+.list_nav{
+    font-size: 16pt;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.input_radio {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
+/* parte da manipulaçao adm*/
+#adm_part{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);
+    width: 900px;
+    height: 800pt;
+    
+}
+
+#image_produto{
+    width: 550px;
+    height: 450px;
+    
+}
+
+
+#img_produto_area{
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+#area_img{
+    width:550px;
+    height: 450px;
+    background: #DDD;
+    border: 1px solid rgba(204, 81, 29, 0.651);
+}
+
+
+
+
+/*area do nome do produto*/
+#area_name_produto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 150px;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+}
+
+#label_nome_produto{
+    font-size: 20pt;
+    padding-bottom: 10px;
+    color: #CC511D;
+}
+
+#input_nome_produto{
+    width: 250px;
+    height: 24px;
+    border: 1px solid #CC511D;
+    font-size: 16pt;
+    padding-left: 10px;
+}
+
+
+
+
+
+/*area info do produto*/
+#area_info_produto{
+    width: 700px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#label_info{
+    margin-left: 150px;
+    font-size: 20pt;
+    padding-bottom: 20px;
+    color: #CC511D;
+}
+
+.input_tr{
+    margin: 10px;
+    width: 250px;
+    height: 24px;
+    border: 1px solid #CC511D;
+    font-size: 16pt;
+    padding-left: 10px;
+}
+
+
+
+
+/*area de precos dos produtos*/
+#area_precos_produto{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    position: absolute;
+    left: 600px;
+    top: 50px
+}
+
+#label_title_precos{
+    margin-bottom: 30px;
+    margin-left: 100px
+}
+
+.label_precoss{
+    margin-left: 10px;
+    font-size: 20pt;
+    padding-bottom: 3px;
+    color: #CC511D;
+}
+
+.input_preco{
+    width: 250px;
+    height: 24px;
+    border: 1px solid #CC511D;
+    font-size: 16pt;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* area da quantidade do produto */
+#area_quantidade_produto{
+    display: flex;
+    position: absolute;
+    left: 600px;
+    top: 350px;
+    flex-direction: column;
+    width: 100px;
+    height: 60px;
+}
+
+#label_quantidade{
+    margin-left: 10px;
+    font-size: 20pt;
+    padding-bottom: 3px;
+    color: #CC511D;
+}
+
+#input_quantidade{
+    width: 250px;
+    height: 24px;
+    border: 1px solid #CC511D;
+    font-size: 16pt;
+    padding-left: 10px;
+    
+}
+
+
+/* container categoria do produto */
+#container-category-prod{
+    display: flex;
+    margin-left: 150px;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 280px;
+}
+
+
+
+/* botao adcionar*/
+#btn_adc{
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #CC511D;
+    border-radius: 3px;
+    box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.719) ;
+    color: #CC511D;
+    font-size: 15pt;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#btn_adc:hover{
+    transition: 0.8s;
+    color: #fff;
+    background: #CC511D;
+}

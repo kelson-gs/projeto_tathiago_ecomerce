@@ -1,0 +1,76 @@
+#container_confirm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px
+
+}
+
+#container_detals{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    top: 280px
+}
+
+#img_logo_confirm{
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#text_confirma_boleto{
+    color: white;
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+#text_agradecimento_boleto{
+    color: white;
+    margin-left: 100px;
+    font-size: 14pt;
+}
+
+#link_gera_boleto{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 200px;
+    height: 45px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15pt;
+}
+
+
+#label_boleto{
+    position: absolute;
+    color: #CC511D;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: white;
+    left: 40px;
+    top: 120px;
+    width: 380px;
+    height: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13pt;
+}
+
+#link_back_home{
+    position: absolute;
+    left: 130px;
+    top: 190px;
+    text-decoration: none;
+    color: white;
+    background: #CC511D;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+    padding: 5px;
+    border-radius: 5px;
+}

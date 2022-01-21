@@ -1,0 +1,42 @@
+#container_putsenha{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    height: 300px;
+    margin: 30px auto ;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+    padding: 10px;
+}
+
+.label_s{
+    margin-left: 160px;
+    margin-top: 30px;
+    font-size: 17pt;
+    color: #CC511D;
+}
+
+.input_s{
+    width: 150px;
+    margin-left: 175px;
+    margin-top: 5px;
+}
+
+#btn_s{
+    margin-top: 50px;
+    margin-left: 45px;
+    width: 400px;
+    border: 1px solid #CC511D;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px #cc511d71;
+    color: #CC511D;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+#btn_s:hover{
+    transition: 0.6s;
+    background: #CC511D;
+    border-radius: 3px;
+    color: #FFFFFF;
+}

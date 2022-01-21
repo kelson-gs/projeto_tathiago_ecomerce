@@ -1,0 +1,125 @@
+/* caixa de demostração do produto */
+#container_reprise_produto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 990px;
+    height: 100px;
+    border: 1px solid #cc511da6;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px #cc511d70;
+    margin-top: 35px;
+    margin-left: 270px;
+}
+
+#img_reprise{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#name_reprise{
+    font-size: 16pt;
+    color: #CC511D;
+    margin-left: 205px; 
+}
+
+#preco_reprise{
+    font-size: 16pt;
+    color: #CC511D;
+    margin-left: 205px;
+}
+
+#quant_reprise{
+    font-size: 16pt;
+    color: #CC511D;
+    margin-left: 205px;
+}
+
+
+/* formularo cartão */
+#form_boleto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.input_boleto_form{
+    width: 500px;
+    height: 30px;
+    font-size: 15pt;
+    padding: 5px;
+    border: 1px solid #CC511D;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+    margin-left: 25px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#text_form_boleto{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 790px;
+    padding-left: 10px;
+}
+
+#title_explicated{
+    color: #CC511D;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#text_endereço{
+    color: #CC511D;
+    font-size: 14pt;
+    margin-top: 14px;
+    margin-left: 50px;
+}
+
+#container_erros{
+    background: #FF5151;
+    width: 300px;
+    height: 40px;
+    margin-left: 100px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 11pt;
+}
+
+/* botão */
+#verificade_boleto_btn{
+    background: #57c4E5;
+    width: 200px;
+    height: 55px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px #0204057c;
+    font-size: 15pt;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#buy_boleto_btn{
+    background: #D1D646;
+    width: 200px;
+    height: 55px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px #0204057c;
+    font-size: 15pt;
+    font-weight: bolder;
+    cursor: pointer;
+}

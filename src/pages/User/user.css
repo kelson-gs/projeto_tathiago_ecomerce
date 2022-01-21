@@ -1,0 +1,165 @@
+#container_usuario{
+    background: rgba(255, 255, 255, 0.397);
+    width: 950px;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
+}
+
+#container_img_icon{
+    width: 205px;
+}
+
+#icon_user{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#container_form_user{
+    position: absolute;
+    top: 220px;
+    left: 500px;
+}
+
+#notUser{
+    margin-left: 100px;
+    color: rgb(36, 63, 78);
+    text-shadow: 0px 1px 1px rgba(36, 63, 78, 0.507);
+}
+
+#link_login_user{
+    margin-left: 180px;
+    width: 150px;
+    height: 23px;
+    border-radius: 5px;
+    border: 1px solid rgb(36, 63, 78);
+    box-shadow: 0px 2px 6px rgb(36, 63, 78);
+    color: rgb(36, 63, 78);
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+#link_login_user:hover{
+    transition: 0.2s;
+    background: rgba(36, 63, 78, 0.144);
+    box-shadow: 0px 0px 1px rgb(36, 63, 78);
+}
+
+.td_classe{
+    padding-right: 200px;
+}
+
+#car_product{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+#label_onclick{
+    cursor: pointer;
+    color: rgba(139, 139, 139, 0.705);
+    transition: 0.3s;
+}
+
+#label_onclick:hover{
+    transition: 0.3s;
+    color: rgb(139, 139, 139);
+}
+
+#img_table_form{
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+#table_product{
+    border-collapse: collapse;
+}
+
+.td_product{
+    border-bottom: 1px solid rgba(10, 2, 2, 0.226);
+    padding-right: 15px;
+    margin-right: 120px;
+    width: 280px;
+    transition: 0.5s;
+}
+
+#link_directory{
+    color: black;
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+#td_directory:hover{
+    transition: 0.4s;
+    padding-left: 7px;
+    background: rgba(177, 177, 177, 0.712);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#delete_btn{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    border-radius: 50%;
+    left: 620px;
+    top: -90px;
+    cursor: pointer;
+}
+
+#update{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    top: 127px;
+    left: 330px;
+}
+
+#label_clicklaps{
+    color: rgb(134, 133, 133);
+    margin-left: 200px;
+}
+
+#input_putsenha{
+    margin-left: 250px;
+    width: 150px;
+    border: 1px solid rgb(87, 86, 86);
+}
+
+#btn_trocar{
+    border: 1px solid rgb(87, 86, 86);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: rgba(128, 128, 128, 0.356);
+    color: rgb(0, 0, 0);
+    padding-top: 0px;
+    height: 21px;
+    cursor: pointer;
+}
+
+#clear-car-button{
+    border: none;
+    background: #34495e;
+    color: rgb(241, 237, 237);
+    font-size: 11pt;
+    padding: 10px;
+    margin-left: 400px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+} 
+
+#clear-car-button:hover{
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.486);
+    transition: 0.5s;
+}

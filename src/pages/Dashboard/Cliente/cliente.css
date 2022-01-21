@@ -1,0 +1,292 @@
+/* timeline de eventos e card-boleto */
+#conteiner_events{
+    display: flex;
+    flex-direction: row;
+    column-gap: 400px;
+    margin-left: 20px;
+}
+
+#events{
+    border: 1px solid #CC511D;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+    align-content: center;
+    background: rgba(136, 122, 122, 0.151);
+}
+
+#box_events{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-left: 65px;
+}
+
+#timeline{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+}
+
+.title_event{
+    color: #CC511D;
+    font-size: 16pt;
+}
+
+
+/* card_boleto view */
+#boleto_view{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+}
+
+#card_view{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+}
+
+#title_boleto_view{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+   
+}
+
+#title_cartao_view{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+}
+
+.label_boleto_view_title{
+    color: #cc511dda;
+    font-size: 15pt;
+}
+
+.label_boleto_respos{
+    color: rgba(82, 81, 81, 0.658);
+    margin-left: 10px
+}
+
+.label_cartao_view_title{
+    color: #cc511dda;
+    font-size: 15pt;
+}
+
+.label_cartao_respos{
+    color: rgba(82, 81, 81, 0.658);
+    margin-left: 10px
+}
+
+
+
+/* transaction view */
+#transaction_view{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    margin-top: 20px;
+    margin-left: 765px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+}
+
+#transacao_view{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+}
+
+.label_transacao_view_title{
+    color: #cc511dda;
+    font-size: 15pt;
+}
+
+.label_transacao_respos{
+    color: rgba(82, 81, 81, 0.658);
+    margin-left: 10px
+}
+
+
+
+/* client view */
+#client_view{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    margin-top: 20px;
+    margin-left: 765px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+}
+
+#client_title_view{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+}
+
+.label_client_view_title{
+    color: #cc511dda;
+    font-size: 15pt;
+}
+
+.label_client_respos{
+    color: rgba(82, 81, 81, 0.658);
+    margin-left: 10px
+}
+
+
+
+/* billing view */
+#billing_view{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    margin-top: 20px;
+    margin-left: 765px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+}
+
+#title_cobranca_h1{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+}
+
+#title_cobranca_h2{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+    font-size: 19pt;
+}
+
+.label_cobranca_view_title{
+    color: #cc511dda;
+    font-size: 15pt;
+}
+
+.label_cobranca_respos{
+    color: rgba(82, 81, 81, 0.658);
+    margin-left: 10px
+}
+
+
+
+/* shipping view */
+
+#shipping_view{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    margin-top: 20px;
+    margin-left: 765px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+}
+
+#title_entrega_h1{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+}
+
+#title_entrega_h2{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+    font-size: 19pt;
+}
+
+.label_cobranca_view_title{
+    color: #cc511dda;
+    font-size: 15pt;
+}
+
+.label_cobranca_respos{
+    color: rgba(82, 81, 81, 0.658);
+    margin-left: 10px
+}
+
+
+
+/* items view */
+
+#items_view{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    margin-top: 20px;
+    margin-left: 765px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+}
+
+#title_compra{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+}
+
+.label_compra_view_title{
+    color: #cc511dda;
+    font-size: 15pt;
+}
+
+.label_compra_respos{
+    color: rgba(82, 81, 81, 0.658);
+    margin-left: 10px;
+}
+
+
+/*parcelas*/
+
+#valor_view{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    margin-top: 20px;
+    margin-left: 465px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 400px;
+}
+
+#title_parcela{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 340px;
+    margin-top: 5px;
+}
+
+.td_parcela_view{
+    border: 1px solid #cc511d69;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    text-align: center;
+    font-size: 18pt;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #796c67d7;
+}
+
+#td_formated{
+    border-right: none;
+}

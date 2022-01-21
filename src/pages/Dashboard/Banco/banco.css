@@ -1,0 +1,41 @@
+#container-menu-banco{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 30px auto;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 20pt;
+    transition-delay: 0.8s;
+}
+
+.link-banco{
+    transition: 0.8s;
+    text-decoration: none;
+    color: #834ac5;
+    width: 350px;
+    padding: 10px;
+}
+
+.link-banco:hover{
+    background: #834ac5;
+    color: #FFFFFF;
+}
+
+#container-title{
+    display: flex;
+    justify-content: center;
+}
+
+#title-banco-h1{
+    color: #CC511D;
+    border-bottom: 1px solid #CC511D;
+    width: 450px;
+    text-align: center;
+}
+
+#sub-title-h2{
+    color: #CC511D;
+    margin-left: 20px;
+    margin-top: 50px;
+}

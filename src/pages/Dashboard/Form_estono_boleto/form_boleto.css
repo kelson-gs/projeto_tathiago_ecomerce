@@ -1,0 +1,98 @@
+#container_forms_boleto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#sub_container_boleto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#formulario_boleto{
+    display: flex;
+    flex-direction: column;
+}
+.input_boleto_forms{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(223, 69, 13, 0.925);
+    border-radius: 5px;
+    outline: none;
+    padding: 2px;
+    padding-left: 5px;
+    
+}
+
+#title_formulario_boleto{
+    font-size: 25pt;
+    color: rgba(223, 69, 13, 0.925);
+    border-bottom: 1px solid rgba(223, 69, 13, 0.925);
+}
+
+.label_boleto_form{
+    font-size: 14pt;
+    color: rgba(223, 69, 13, 0.925)
+}
+
+#container_type_selected{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid rgba(223, 69, 13, 0.925);
+
+}
+
+#label_type_item{
+    color: gray;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(223, 69, 13, 0.925);
+    transition: 0.2s;
+}
+
+#label_type_item:hover{
+    color: rgb(59, 59, 59);
+}
+
+
+#label_items_tipos{
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#label_items_tipos:hover{
+    background: rgba(128, 128, 128, 0.315);
+}
+
+#btn_extornar_boleto{
+    border: none;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 8px;
+    width: 200px;
+    height: 35px;
+    font-size: 14pt;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn_extornar_boleto:hover{
+    font-size: 15pt;
+    background: rgba(214, 252, 179, 0.459);
+    
+}
+
+#btn_extornar_boleto:hover{
+    box-shadow: 0px 0px 10px rgb(102, 145, 62);
+    transition: 1.0s;
+}

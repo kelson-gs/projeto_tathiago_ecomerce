@@ -1,0 +1,42 @@
+#container_confirm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px
+
+}
+
+#container_detals{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+}
+
+#img_logo_confirm{
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#text_confirma{
+    color: white;
+    font-weight: bolder;
+}
+
+#text_agradecimento{
+    color: white;
+    margin-left: 100px;
+}
+
+#link_back{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 150px;
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}

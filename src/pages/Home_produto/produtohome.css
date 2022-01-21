@@ -1,0 +1,356 @@
+#container_one_produto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+
+#container_quantidade{
+    margin-top: 50px;
+}
+
+#container_simu{
+    border-bottom:1px solid #CC511D;
+    width: 300px;
+}
+
+#container_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+#container_compra{
+    margin-left: 290px;
+    margin-top: 38px;
+    width: 620px;
+    height: auto;
+    box-shadow: 0px 0px 3px #cc511d8c;
+    padding: 10px;
+}
+
+#container_info_img{
+    width: 600px;
+    height: auto;
+
+}
+
+#container_parcela{
+    border: 1px solid #CC511D;
+    margin-left: 170px;
+    margin-top: 35px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+#container_upavista{
+    display: flex;
+    flex-direction: row;
+}
+
+#container_upcartao{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#container_upquantidade{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+
+#container_correios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    border: 1px solid #CC511D;
+    width: 300px;
+    margin-left: 150px;
+    padding: 5px;
+}
+
+#container_pazo_calc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#img_produto_produtohome{
+    width: 425px;
+    height: 425px;
+    margin-left: 170px;
+}
+
+#title_produto_produtohome{
+    color: #CC511D;
+    text-align: center;
+    border-bottom: 1px solid #CC511D;
+    width: 500px;
+    margin-left: 63px;
+}
+
+#table_info_produto {
+    font-size: 16pt;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    border-top: 1px solid #CC511D;
+    top: 560px;
+    margin-bottom: 60px;
+    margin-left: 150px;
+}
+
+.td_name{
+    color: #CC511D;
+}
+
+#table_info_produto tr{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#label_cartao{
+    position: absolute;
+    font-size: 16pt;
+    width: 300px;
+    left: 700px;
+    top: 300px;
+}
+
+#esgotado{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    font-size: 25pt;
+    color: white;
+    text-align: center;
+    background: #CC511D;
+    top: 150px;
+    left: 300px;
+    border-radius: 5px;
+}
+
+#texto_parcela{
+    color: #CC511D;
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+.label_install{
+    color: #CC511D;
+    margin-left: 25%;
+}
+
+#simulador{
+    color: #e98358;
+    font-size: 12pt;
+    transition: 0.2s;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#simulador:hover{
+    color: #CC511D;
+    transition: 0.2s;
+}
+
+#cartao{
+    width: 300px;
+    border: 1px solid #CC511D;
+    border-radius: 10px;
+    font-size: 30pt;
+    text-align-last: center;
+    background: #CC511D;
+    color: white;
+    margin-left: 165px;
+    margin-bottom: 5px;
+
+}
+
+#avista {
+    width: 200px;
+    border: 1px solid #CC511D;
+    border-radius: 10px;
+    font-size: 20pt;
+    text-align: center;
+    background: #CC511D;
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 3px;
+}
+
+#input_cartao{
+    width: 95px;
+    margin-left: 255px;
+
+}
+
+#icon_update_cartao{
+    background: #CC511D;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+#label_avista{
+    font-size: 16pt;
+    color: #CC511D;
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#input_avista{
+    width: 95px;
+    margin-left: 250px;
+}
+
+#label_quantidade_produto{
+    font-size: 16pt;
+    width: 200px;
+    margin-left: 190px;
+    color: #CC511D;
+}
+
+#input_quantidade_produto{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #CC511D;
+    width: 100px;
+    margin-left: 5pt;
+    outline: none;
+    cursor: pointer;
+}
+
+#icon_update_quantidade{
+    background: #CC511D;
+    width: 22px;
+    height: 19px;
+    cursor: pointer;
+}
+
+#icon_update_avista{
+    background: #CC511D;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+#btn_carrinho{
+    width: 100px;
+    height: 100px;
+    background: #CC511D;
+}
+
+#btn_comprar{
+    width: 100px;
+    height: 100px;
+    font-size: 14pt;
+    font-weight: bold;
+    outline: none;
+}
+
+.btn_produto{
+    border: 1px solid #CC511D;
+    background: #fff;
+    color: #CC511D;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn_produto:hover{
+    background: #e98358;
+    border: 1px solid #e98358;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.link_pagamento{
+    color: #CC511D;
+    text-decoration: none;
+
+}
+
+.link_pagamento:hover{
+    color: #7c3415;
+}
+
+#link_cartao{
+    cursor: pointer;
+    margin-right: 20px;
+    border-bottom: 1px solid #CC511D;
+}
+
+#link_boleto{
+    cursor: pointer;
+    width: 0px;
+    margin-left: 20px;
+    border-bottom: 1px solid #CC511D;
+}
+
+#selecione_pagamento{
+    color: #CC511D;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+#conteinerl{
+    margin-top: 35px;
+    border: 1px solid #CC511D;
+    border-radius: 5px;
+}
+
+#container_link_pagamento{
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+}
+
+#label_calcular_prazo{
+    color: #CC511D;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#label_calcular_prazo:hover{
+    color: #813514;
+}
+
+#label_calcular_prazo_p2{
+    color: #813514;
+}
+
+#input_peso_correios{
+    margin-top: 5px;
+}
+
+.item_prazo_correios{
+    padding: 5px;
+    margin: 5px;
+    margin: 5px;
+}
+
+#btn_calc_correio{
+    cursor: pointer;
+
+}
+
+/* error label quantidade */
+#newQuantidadeError{
+    position: absolute;
+    background: red;
+    color: white;
+    margin-left: 180px;
+    margin-top: 10px;
+    padding: 4px;
+    font-size: 11pt;
+}

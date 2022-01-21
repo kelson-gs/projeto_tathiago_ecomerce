@@ -1,0 +1,52 @@
+#container_table_transation{
+    max-width: 800px;
+    height: auto;
+    margin-left: 20px;
+    border-collapse: collapse;
+    border: 1px solid #cc511d69;
+    scroll-margin-bottom: inherit;
+    
+}
+
+.th_form_transation{
+    padding-right: 15px;
+    margin-right: 120px;
+    background: #cc511db7;
+    border: 1px solid#cc511d69;
+    font-size: 11pt;
+    color: white;
+}
+
+.td_form_transation{
+    padding-right: 15px;
+    margin-right: 120px;
+    border: 1px solid #cc511d69;
+    text-align: center;
+    font-size: 11pt;
+    color: #796c67d7;
+}
+
+#container_btn_transation{
+    display: flex;
+    column-gap: 100px;
+    margin-left: 500px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.btn_transacao{
+    background: #df602ac4;
+    border: none;
+    border-radius: 50px;
+    color: rgb(247, 246, 245);
+    font-weight: bold;
+    font-size: 14pt;
+    height: 35px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn_transacao:hover{
+    background: #df602afb;
+}

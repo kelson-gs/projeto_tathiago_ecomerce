@@ -1,0 +1,137 @@
+
+#container_items{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: column;
+    border: 1px solid #CC511D;
+    border-radius: 5px;
+    box-shadow: 0px 3px 8px rgba(204, 81, 29, 0.568);
+    align-items: center;
+    padding: 5px;
+    background: #FFFFFF;
+    width: 800px;
+    height: 500px;
+}
+
+#form_container{
+    display: flex;
+    color: #CC511D;
+    flex-direction: column;
+
+    
+}
+
+.title_forms{
+    font-size: 20pt;
+    margin-bottom: 3px;
+    padding-bottom: 1px;
+}
+
+.inputs_forms{
+    width: 600px;
+    height: 30px;
+    border: 1px solid rgba(204, 81, 29, 0.459);
+    outline: none;
+    padding-top: 1px;
+    padding-left: 10px;
+    font-size: 16pt;
+}
+
+#title_login{
+    color: #CC511D;
+    border-bottom:2px solid #CC511D;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 28pt;
+    width: 600px;
+}
+
+#btn_logar{
+    width: 210px;
+    height: 27px;
+    margin-top: 50px;
+    align-self: center;
+    font-size: 15pt;
+    background: white;
+    color: #CC511D;
+    border: 1px solid rgba(204, 81, 29, 0.699);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+#btn_link{
+    text-decoration: none;
+    color: #CC511D;
+    transition: 0.8s;
+}
+
+#btn_link:hover{
+    color: #fff;
+    transition: 0.8s;
+}
+
+#btn_cad{
+    width: 130px;
+    height: 19px;
+    margin-top: 15px;
+    align-self: center;
+    font-size: 10pt;
+    color: #CC511D;
+    background: white;
+    border: 1px solid rgba(204, 81, 29, 0.699);
+    border-radius: 3px;
+    cursor:pointer;
+    transition: 0.8s;
+}
+
+#btn_logar:hover{
+    transition: 0.8s;
+    background: #CC511D;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn_cad:hover{
+    transition: 0.8s;
+    background: #CC511D;
+    color: #fff;
+    cursor: pointer;
+}
+
+#link_remb_pass{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #CC511D;
+    font-size: 12pt; 
+}
+
+
+/* container erros and accerts */
+
+.container_view_errors_and_accerts{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_erros_login{
+    background: rgba(192, 7, 44, 0.897);
+    width: 250px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 3px 3px rgba(192, 7, 44, 0.534);
+    margin-top: 5px;
+}
+
+#container_accert_login{
+    background: rgba(4, 134, 4, 0.897);
+    width: 250px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 3px 3px rgba(4, 134, 4, 0.479);
+    margin-top: 5px;
+}
