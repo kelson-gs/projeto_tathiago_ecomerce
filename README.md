@@ -1,5 +1,5 @@
 # e-commerce do zero com ReactJS.
-Contruir um e-commerce do zero com finalidade de colocar em prática tudo o que tinha prendido até o momento da finalização dele.
+Contruir um e-commerce do zero com finalidade de colocar em prática tudo o que tinha aprendido até o momento da finalização dele.
 
 
 ***
